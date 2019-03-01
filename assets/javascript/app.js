@@ -25,7 +25,7 @@ $(document).ready(function() {
 
   $("#play").on("click", "#done-button", function() {
 
-    // Question 1 functions
+    // Question 1 
 
     function answerCheck1 () {
 
@@ -54,7 +54,7 @@ $(document).ready(function() {
 
     answerCheck1(firstQuestion);
 
-    // Question 2 logic
+    // Question 2 
 
     function answerCheck2() {
 
@@ -168,7 +168,7 @@ $(document).ready(function() {
 
     var fifthQuestion = $("#question5");
 
-    answerCheck4(fifthQuestion);
+    answerCheck5(fifthQuestion);
 
     // Hide game
     $("#game").hide();
@@ -207,7 +207,7 @@ $(document).ready(function() {
         $("#results").show().prepend("Immobulous - Time's Up!");
         // Correct score
         $("#correctText").text("Correct Answers: " + correctGuesses);
-        // Incorrect incorrect score
+        // Incorrect score
         $("#incorrectText").text("Incorret Answers: " + incorrectGuesses);
         // Unanswered score
         $("#unansweredText").text("Unanswered Questions: " + unansweredQuestions);

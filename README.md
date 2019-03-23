@@ -1,2 +1,3 @@
 # TriviaGame
-Week 5 HW
+Link to Deployed App
+https://lianasun.github.io/TriviaGame/
